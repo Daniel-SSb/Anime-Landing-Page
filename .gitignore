@@ -1,0 +1,6 @@
+# Ignore images
+*.jpg
+*.avif
+*.png
+*.webp
+*.jpeg

@@ -1,14 +1,16 @@
 img {
     border-radius: 10%;
-    width: 60%;
-    height: auto;
+    object-fit: cover;
+    width: 83.5%;
+    height: 80%;
+    padding: 0px;
 }
 
 .hero-section {
     background-size: cover;
     background-image: url("../images/dan_da_dan_hero.jpg");
-    height: 60vh;
-    width: 85vw;
+    height: 97vh;
+    width: 88.5vw;
     background-position: center;
     margin: auto;
 }
@@ -17,13 +19,17 @@ img {
     content: ""; 
     position: absolute; 
     top: 50%; 
-    left: 7.5%; 
-    right: 7.5%; 
-    bottom: 38.6%; 
+    left: 5%; 
+    right: 5%; 
+    bottom: 2%; 
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 80%); /* Dark fade */
     z-index: 1; 
 }
 
+.profile_card_title {
+    color: white;
+    margin: 10px 85px 30px
+}
 
 .hero-image {
     background-size: cover;
@@ -36,9 +42,21 @@ img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 10px 50px 20px;
-    gap: 20px;
+    row-gap: 50px;
+    column-gap: 0;
+    margin-bottom: 0;
 }
 
 .character_profile {
     text-align: center;
+}
+
+.character_profile h2 {
+    text-align: left;
+    margin: 15%;
+}
+
+h2 {
+    color: white;
+    
 }
